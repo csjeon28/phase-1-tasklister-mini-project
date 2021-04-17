@@ -11,7 +11,13 @@ body {
 }
 
 button {
-  font-size: 7px;
+  font-size: 14px;
+  border-color: rgb(189, 211, 211);
+  border-radius: 10px;
+}
+
+button:hover {
+  color: rgba(58, 169, 184, 0.836);
 }
 
 #main-content {
@@ -28,10 +34,19 @@ button {
 }
 
 #list {
-  margin: 10px;
-  border: 1px solid #333;
+  margin: 12px;
+  border: 1px solid rgb(145, 24, 139);
   background: rgba(255, 255, 255, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
+  box-shadow: 2px 5px 5px rgb(54, 126, 126);
+}
+
+#completed-list {
+  margin: 12px;
+  border: 1px solid rgba(21, 193, 216, 0.507);
+  background: rgba(255, 255, 255, 0.75);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px rgb(135, 35, 165);
 }
